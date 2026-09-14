@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { dummyShowsData } from '../assets/assets';
 
-const API_URL = 'http://localhost:8080/movies'
+const API_URL = 'http://localhost:8080/movies';
 
 export const fetchMovies = async () => {
   try {
